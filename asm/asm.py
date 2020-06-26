@@ -120,6 +120,7 @@ def normalize_line(groups):
         else:
             result.append(g.upper())
 
+
     return result
 
 
@@ -128,14 +129,6 @@ def p8(v):
 
 
 def pass1(inputfile, sym, code):
-    """
-    Pass 1
-
-    * Read the source code lines
-    * Parse labels, opcodes, and operands
-    * Record label offsets
-    * Emit machine code
-    """
 
     # Source line number
     line_num = 0
